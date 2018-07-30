@@ -1,0 +1,8 @@
+<p>{{being.name}}</p>
+{{yield
+  being.definitions
+  (hash
+    parentWord=being
+    updateSiblings=(action 'updateDefinitions')
+  )
+}}

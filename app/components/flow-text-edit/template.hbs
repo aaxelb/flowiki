@@ -1,0 +1,25 @@
+{{yang-yin
+  'flow-text-edit/x-sentence'
+  'flow-text-edit/x-word'
+  being=oneSentence
+  environment=(hash
+    parentWord=null
+    updateSiblings=(action 'updateSentence')
+  )
+}}
+
+{{!--
+
+{{#yang-yin
+  'flow-text-edit/x-order'
+  'flow-text-edit/x-chaos'
+  environment=editorState
+  as |order chaos localEnvironment|
+}}
+  {{#order localEnvironment}}
+  {{/order}}
+  {{#chaos localEnvironment}}
+  {{/chaos}}
+{{/yang-yin}}
+
+--}}

@@ -1,0 +1,3 @@
+.FlexSentence {
+  composes: FlexSentence from '../styles';
+}

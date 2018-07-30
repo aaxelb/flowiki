@@ -1,0 +1,3 @@
+.FlexWord {
+  composes: FlexWord from '../styles';
+}
